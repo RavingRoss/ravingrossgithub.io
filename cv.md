@@ -4,4 +4,4 @@ title: "CV"
 permalink: /cv/
 ---
 
-[Download my CV here.](/assets/Jacob_Romeo_CV.pdf)
+[Download my CV here.](/files/Jacob_Romeo_Resume_25.pdf)

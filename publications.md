@@ -4,4 +4,5 @@ title: "Publications"
 permalink: /publications/
 ---
 
-A list of peer-reviewed papers, arXiv submissions, or conference talks.
+## [SPIE Conference Proceeding](https://doi.org/10.1117/12.3013739)
+This is the EasyControls project under [Projects](/projects), Integrated spacecraft autonomous attitude control testbed, or ISAAC. 

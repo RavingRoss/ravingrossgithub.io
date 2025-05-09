@@ -3,11 +3,11 @@ description: "Astrophysics PhD Student"
 url: "https://ravingross.github.io"  # Replace with your GitHub Pages URL if different
 baseurl: ""  # Leave blank for user/organization site; use "/repo-name" for project site
 
-theme: minima
+theme: minimal-mistakes-jekyll
 
 author:
   name: "Jacob R. Romeo"
-  email: your.email@domain.com  # Optional
+  email: jromeo@hawaii.edu  # Optional
 
 # Enable GitHub Pages plugins
 plugins:
