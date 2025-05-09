@@ -1,36 +1,38 @@
+# Site settings
 title: "Jacob R. Romeo"
-description: "Astrophysics PhD Student"
-url: "https://ravingross.github.io"  # Replace with your GitHub Pages URL if different
-baseurl: ""  # Leave blank for user/organization site; use "/repo-name" for project site
+email: "jromeo@hawaii.edu"
+description: "Personal website and portfolio"
+baseurl: "" # Leave empty for the root directory
+url: "https://ravingross.github.io" # Your GitHub Pages URL or custom domain
 
-theme: minimal-mistakes-jekyll
-
+# Author information
 author:
-  name: "Jacob R. Romeo"
-  email: jromeo@hawaii.edu  # Optional
+  name: "Jacob Romeo"
+  email: "jromeo@hawaii.edu"
 
-# Enable GitHub Pages plugins
+# Build settings
+markdown: kramdown
+theme: minimal-mistakes-jekyll # A simple and elegant theme
+
+# Social links
+social:
+  orcid: "https://orcid.org/0009-0000-3896-230X"
+  github: "https://github.com/RavingRoss"
+  linkedin: "https://www.linkedin.com/in/jacob-romeo-ce-301124191/"
+  email: "jromeo@hawaii.edu"
+
+# Plugins
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-paginate
 
-# Optional build settings
-markdown: kramdown
-highlighter: rouge
+# Pagination settings
+paginate: 5
+paginate_path: "/page:num/"
 
-# Navigation (if you want to use it in layout)
-nav:
-  - title: "About"
-    url: /about
-  - title: "Research"
-    url: /research
-  - title: "Projects"
-    url: /projects
-  - title: "Publications"
-    url: /publications
-  - title: "CV"
-    url: /cv
-  - title: "Contact"
-    url: /contact
+# Other settings
+exclude:
+  - "README.md"
+  - "Gemfile"
+  - "Gemfile.lock"

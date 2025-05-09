@@ -1,0 +1,13 @@
+---
+layout: default
+title: "Cool Papers"
+permalink: /papers/
+---
+
+# Below are some papers I have been reading
+
+## [New Detection of BSS](https://www.aanda.org/articles/aa/full_html/2023/04/aa44998-22/aa44998-22.html#tabs)
+Paper on identifying 138 BSS that had not been reported before in 50 open clusters using a very systematic approach.
+
+## [Controversial roAp paper](https://watermark.silverchair.com/stac011.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAA1EwggNNBgkqhkiG9w0BBwagggM-MIIDOgIBADCCAzMGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMdgUKXGGbUdEtGN1xAgEQgIIDBHqkS1XQkV-v26dt84Tz8M5XF0-CUJb_2uSmHLCNRr6C8Yl36xl60-zrVR4RCCjfbKqN-0rZHCQDYiMr_UQ3V-NBQsgGAb2Fo7Vwn48DAAezjrs0BDyWtF9rdZaMoNdQB0mYH6xu1RfHzML68YrB818moPWQu2buBD3da1wX0Ozc6h9lHNJ4iBNOyTolOVyiv5s5U_ArKcVeHk-kN_XySXOc5lpG9c_5T9nsfPBzmyxfrGRbA2y3ysoia5TBlB7bqYt2Hj4GuRisx-FR9zittOi1QIWTgK9EwCqKWM6WfPyx_joWmTZY-lq_eqq4o1Ym3ZojhAnDKlPwsFQ_zli59T_i5Yo81SfUsNJB4JnfraWuUyJrhNpRFN8VipXmi77rkeAiyiEUNR7gRYHcu_ip1HLC2rGskmsNZPV9wU0OGHFVrw8rISKsyoRT3wLnVULx4NJWOUR5phvqh-HtTEVcZkhNk9eUy-SEI2pDkgadVWfM-TpFPIKCbt-cV63Niw_suli9aKE4kaffXAHsntcYmxBcPAA1ZulTzhCLFqDkJlHDgvsg9yTqk1SmhZlxBwgblXIz5niTVI2TpRuYSISgjPaFfCpNUOPDntGHRaLW5bfN7p72GSUwLHTGQq3Oz5nN9MQujFMmwjF6zqgNLbKlFmrr9LuT9N8QYlQGFLewx4jkrf15O8CVJEcd4_uWKtUs4EIIs6TFl9HqnVettmSM7LKkZK6P8k2yFqzLGi_SOkOxwZ8RpGuzFe_CAWcyhL9OuEuQDjG4273F0-odWjLpTAWR7ITSv7wyYjeEA7cLtT8mK_VQxqJ3PbmjX7-Q1G9_TKzDAx61TJhd9HZgWqvUE18UnGTBAhjORVSpxywKNzLMGofMauRRwuLuqJ-e1EQ0iJR76g8jK4GZebK8EBqrRyUuf9u-LyTHSXvuna-nsy5lrA3TBiLBSQW14qQI_nrzhY18JniahICzoXSNmx7UJVmfU3VRlCjhjqAa4zKtfYu8RKwg1cfjgl29DrbV11Pz_YZ6RrA)
+Balona wrote this paper back in May of 2021 and it came to be very controversial on teh discussion of, "are roAps, actually roAps?" I liked it, good read!

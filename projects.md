@@ -1,10 +1,10 @@
 ---
-layout: page
+layout: default
 title: "Projects"
 permalink: /projects/
 ---
 
-Here are some of my selected research projects on GitHub:
+# Here are some of my research projects from GitHub:
 
 ### [Periscope](https://github.com/RavingRoss/Outreach-Periscope)
 I 3D printed and build a Periscope which attached to the end of a 1-meter telescope. This was done at Embry Riddle Aeronautical University, where I did my undergrad. I loved this project, as it allowed thousands of people to view the solar system and its beauty from an observatory. 

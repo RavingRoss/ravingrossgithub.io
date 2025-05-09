@@ -1,36 +1,100 @@
----
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{{ site.description }}">
+  <meta name="author" content="{{ site.author.name }}">
+  <title>{{ page.title }} - {{ site.title }}</title>
+  
+  <style>
+    body {
+      background-color: #121212;
+      color: #e0e0e0;
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+    }
 
-<!doctype html>
-{% include copyright.html %}
-<html lang="{{ site.locale | replace: "_", "-" | default: "en" }}" class="no-js">
-  <head>
-    {% include head.html %}
-    {% include head/custom.html %}
-  </head>
+    header, footer {
+      background-color: #1e1e1e;
+      color: #aaaaaa;
+      margin: 0;
+      padding: 0;
+    }
 
-  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}" dir="{% if site.rtl %}rtl{% else %}ltr{% endif %}">
-    {% include_cached skip-links.html %}
-    {% include_cached masthead.html %}
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 0 1rem;
+    }
 
-    <div class="initial-content">
-      {{ content }}
-      {% include after-content.html %}
+    main.content {
+      color: #e0e0e0;
+      padding: 2rem 0;
+    }
+    
+    h2, h3, h4, h5, h6 {
+      color: #ffffff;         /* White headers */
+    }
+
+    a {
+      color: #90caf9;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #bbdefb;
+    }
+  </style>  
+
+  {% include head.html %}
+</head>
+<body>
+  <header style="background-image: url('/files/header_image.jpg'); background-size: cover; background-position: center; height: 300px;">
+    <div class="container" style=margin-left:2rem; margin-right: auto; padding: 2rem;">
+      <h1>{{ site.title }}</h1>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <!--<li><a href="/about/">About</a></li>-->
+          <li><a href="/cv/">Resume</a></li>
+          <li><a href="/research/">Current Research</a></li>
+          <li><a href="/publications/">Publications</a></li>
+          <li><a href="/papers/">Cool Papers</a></li>
+          <li><a href="/projects/">Projects</a></li>
+          <li><a href="/contact/">Contact</a></li>
+        </ul>
+      </nav>
     </div>
+  </header>
 
-    {% if site.search == true %}
-      <div class="search-content">
-        {% include_cached search/search_form.html %}
-      </div>
-    {% endif %}
-
-    <div id="footer" class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include_cached footer.html %}
-      </footer>
+  <main class="content">
+    <div class="container" style="max-width: 1000px; margin-left: 2rem; margin-right: auto; padding: 2rem;">
+      <article>
+        {{ content }}
+      </article>
     </div>
+  </main>
 
-    {% include scripts.html %}
-  </body>
+  <footer>
+    <div class="container" style=margin-left:2rem; margin-right: auto; padding: 2rem;>
+      <p style="font-size: 0.7em; font-style: italic;">
+        “Only two things are infinite, the universe and human stupidity, and I'm not sure about the former."
+        <br>
+        ~ Some guy with frizzy hair   
+      </p>
+      <p>&copy; {{ site.time | date: "%Y" }} {{ site.author.name }}. All rights reserved.</p>     
+      <p>
+        <!--
+        <a href="{{ site.url }}/feed.xml">RSS Feed</a> |
+        <a href="{{ site.url }}/sitemap.xml">Sitemap</a> |
+        -->
+        <a href="https://github.com/{{ site.github }}/{{ site.repository_name }}">GitHub</a>
+      </p>
+    </div>
+  </footer>
+
+  {% include scripts.html %}
+</body>
 </html>

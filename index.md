@@ -1,30 +1,18 @@
 ---
-layout: home
-title: "Jacob R. Romeo - Astrophysics PhD Student"
-header:
-  overlay_color: "#000"
-  overlay_filter: "0.3"
-  overlay_image: /files/header_image.jpg
-  actions:
-    - label: "Download CV"
-      url: "/files/Jacob_Romeo_CV.pdf"
-excerpt: "Exploring the interiors of stars through Asteroseismology and precision stellar astrophysics."
+layout: default
+title: "Home"
 ---
 
-## Welcome! 👋
+# Welcome to My Official Site!
 
-I'm **Jacob R. Romeo**, a PhD student in astrophysics with a focus on **asteroseismology**, stellar structure, and time-domain astronomy. I use data from missions like **TESS** and **Kepler** to probe the interiors of stars through their oscillations.
+Hi, I’m **Jacob R. Romeo** — a Physics and Astronomy PhD student at University of Hawaii! I’m currently focused on:
 
-This site is a hub for my:
+- Pulsation classification of stars
+- Signal processing in photodetectors
+- String theory (hypothesis)
+- Of course... Black Holes
 
-- 📚 [Current Research](/research)
-- 📄 [Publications](/publications)
-- 🛠️ [Projects](/projects)
-- 📥 [CV](/files/Jacob_Romeo_CV.pdf)
+This site serves as a central hub for my [current research](/research/), [publications](/publications/), and [projects](/projects/).
 
-Whether you're a fellow researcher, student, or just curious about stars that sing, feel free to explore — and don’t hesitate to [get in touch](/contact)!
+Feel free to browse around or [contact me](/contact/) if you’re interested in collaborating!
 
----
-
-> _“The stars are the landmines of truth waiting to be unearthed by science.”_  
-> — _Someone probably_
