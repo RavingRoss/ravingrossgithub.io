@@ -1,0 +1,36 @@
+title: "Jacob R. Romeo"
+description: "Astrophysics PhD Student"
+url: "https://ravingross.github.io"  # Replace with your GitHub Pages URL if different
+baseurl: ""  # Leave blank for user/organization site; use "/repo-name" for project site
+
+theme: minima
+
+author:
+  name: "Jacob R. Romeo"
+  email: your.email@domain.com  # Optional
+
+# Enable GitHub Pages plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+
+# Optional build settings
+markdown: kramdown
+highlighter: rouge
+
+# Navigation (if you want to use it in layout)
+nav:
+  - title: "About"
+    url: /about
+  - title: "Research"
+    url: /research
+  - title: "Projects"
+    url: /projects
+  - title: "Publications"
+    url: /publications
+  - title: "CV"
+    url: /cv
+  - title: "Contact"
+    url: /contact
