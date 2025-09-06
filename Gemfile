@@ -5,7 +5,10 @@ source "https://rubygems.org"
 gem "jekyll", "~> 4.3.2"
 
 # Theme
-gem "minimal-mistakes-jekyll", "~> 4.26"
+gem "minimal-mistakes-jekyll", "~> 4.27" # bump to latest
+
+# Required by Minimal Mistakes for caching
+gem "jekyll-include-cache"
 
 # Optional: use GitHub Pages-compatible versions
 group :jekyll_plugins do

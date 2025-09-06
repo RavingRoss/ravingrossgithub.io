@@ -10,9 +10,9 @@ author:
   name: "Jacob Romeo"
   email: "jromeo@hawaii.edu"
 
-# Build settings
-markdown: kramdown
+# Theme and Appearance
 theme: minimal-mistakes-jekyll # A simple and elegant theme
+minimal_mistakes_skin: "air" # "air", "plum", or "dark" for diff styles
 
 # Social links
 social:
@@ -26,12 +26,26 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-include-cache # Required by MM
 
 # Pagination settings
 paginate: 5
 paginate_path: "/page:num/"
 
+# Navigation (optional, for top menu)
+# Create _data/navigation.yml to customize
+# navigation:
+#   - title: "About"
+#     url: /about/
+#   - title: "Research"
+#     url: /research/
+#   - title: "CV"
+#     url: /cv/
+#   - title: "Contact"
+#     url: /contact/
+
 # Other settings
+markdown: kramdown
 exclude:
   - "README.md"
   - "Gemfile"

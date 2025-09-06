@@ -1,0 +1,27 @@
+Reading package lists...
+Building dependency tree...
+Reading state information...
+gem is already the newest version (1:0.94-8+b1).
+Calculating upgrade...
+The following NEW packages will be installed:
+  gdal-data gdal-plugins geoclue-2.0 iio-sensor-proxy libaec0 libarmadillo11
+  libarpack2 libblosc1 libcfitsio10 libexiv2-27 libfreexl1 libfyba0 libgdal32
+  libgeos-c1v5 libgeos3.11.1 libgeotiff5 libhdf4-0-alt libhdf5-103-1
+  libhdf5-hl-100 libkmlbase1 libkmldom1 libkmlengine1 libnetcdf19 libodbc2
+  libodbcinst2 libogdi4.1 libpq5 libproj25 libqca-qt5-2 libqca-qt5-2-plugins
+  libqgis-3d3.22.16 libqgis-core3.22.16 libqhull-r8.0 libqt53danimation5
+  libqt53dcore5 libqt53dextras5 libqt53dinput5 libqt53dlogic5
+  libqt53dquickscene2d5 libqt53drender5 libqt5concurrent5 libqt5keychain1
+  libqt5positioning5 libqt5sensors5 libqt5serialport5 libqt5webchannel5
+  libqt5webkit5 librttopo1 libspatialindex6 libspatialite7 libsuperlu5 libsz2
+  liburiparser1 libxerces-c3.2 proj-bin proj-data
+  qt3d-assimpsceneimport-plugin qt3d-defaultgeometryloader-plugin
+  qt3d-gltfsceneio-plugin qt3d-scene2d-plugin unixodbc-common
+The following packages have been kept back:
+  libvlc-bin libvlc5 python3-picamera2 raspi-utils-core raspi-utils-dt
+  rpicam-apps vlc vlc-bin vlc-data vlc-plugin-base vlc-plugin-qt
+  vlc-plugin-skins2 vlc-plugin-video-output
+0 upgraded, 61 newly installed, 0 to remove and 13 not upgraded.
+Need to get 53.5 MB of archives.
+After this operation, 189 MB of additional disk space will be used.
+Do you want to continue? [Y/n] 
